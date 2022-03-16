@@ -8,7 +8,7 @@
       <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
         <div>
           <div>
-            <img class="h-11 w-auto" src="/assets/images/logo-full.svg" alt="App Observatory">
+            <img class="w-5/6 h-auto sm:h-11 sm:w-auto" src="/assets/images/logo-full.svg" alt="App Observatory">
           </div>
           <div class="mt-20">
             @if($updates->count())
@@ -120,13 +120,17 @@
           </div>
           <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
             <picture>
-              <source type="image/webp"
+              <source media="(min-width: 640px)" type="image/webp"
                 srcset="/assets/images/beta-screenshot.webp 1x, /assets/images/beta-screenshot@2x.webp 2x" />
-              <source type="image/png"
+              <source media="(min-width: 640px)" type="image/png"
                 srcset="/assets/images/beta-screenshot.png 1x, /assets/images/beta-screenshot@2x.png 2x" />
+              <source media="(min-width: 1px)" type="image/webp"
+                srcset="/assets/images/beta-screenshot-sm.webp 1x, /assets/images/beta-screenshot.webp 2x" />
+              <source media="(min-width: 1px)" type="image/png"
+                srcset="/assets/images/beta-screenshot-sm.png 1x, /assets/images/beta-screenshot.png 2x" />
               <img
                 class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                src="/assets/images/beta-screenshot.png" alt="App Observatory screenshot" />
+                src="/assets/images/beta-screenshot-sm.png" alt="App Observatory screenshot" />
             </picture>
           </div>
         </div>
