@@ -307,6 +307,8 @@
       </h2>
     </div>
 
+    @include('_partials.news-listing')
+
     <!-- CTA section -->
     <div class="relative mt-24 sm:mt-32 sm:py-16">
       <div aria-hidden="true" class="hidden sm:block">

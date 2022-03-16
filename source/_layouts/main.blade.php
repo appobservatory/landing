@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
+<html lang="{{ $page->language ?? 'en' }}" class="min-h-full">
 
 <head>
   <meta charset="utf-8">
@@ -16,7 +16,7 @@
   <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 </head>
 
-<body class="text-gray-900 font-sans antialiased">
+<body class="text-gray-900 font-sans antialiased min-h-full">
   @yield('body')
 </body>
 
