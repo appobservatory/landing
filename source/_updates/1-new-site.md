@@ -4,7 +4,7 @@ section: updateContent
 title: "New Site!"
 author: "Garrett"
 date: "2022-03-15"
-heading: "As App Observatory gets ready to reveal the beta, a new site to showcase it and provide updates was needed."
+heading: "As App Observatory gets ready to reveal the beta, a new site to showcase it and provide updates was needed. There are so many exciting things coming!"
 ---
 App Observatory is currently in active development. Based on the Trello card, 
 I think the private beta should be available by the end of March 2022. Since 
