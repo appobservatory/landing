@@ -120,8 +120,10 @@
           </div>
           <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
             <picture>
-              <source type="image/webp" srcset="/assets/images/beta-screenshot.webp" />
-              <source type="image/png" srcset="/assets/images/beta-screenshot.png" />
+              <source type="image/webp"
+                srcset="/assets/images/beta-screenshot.webp 1x, /assets/images/beta-screenshot@2x.webp 2x" />
+              <source type="image/png"
+                srcset="/assets/images/beta-screenshot.png 1x, /assets/images/beta-screenshot@2x.png 2x" />
               <img
                 class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
                 src="/assets/images/beta-screenshot.png" alt="App Observatory screenshot" />
