@@ -944,6 +944,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   white-space: nowrap;
   border-width: 0;
 }
+.static {
+  position: static;
+}
 .absolute {
   position: absolute;
 }
@@ -1252,6 +1255,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .overflow-hidden {
   overflow: hidden;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 .rounded {
   border-radius: 0.25rem;

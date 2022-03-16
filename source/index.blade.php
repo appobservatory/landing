@@ -11,13 +11,17 @@
             <img class="h-11 w-auto" src="/assets/images/logo-full.svg" alt="App Observatory">
           </div>
           <div class="mt-20">
-            {{-- <div>
-              <a href="#" class="inline-flex space-x-4">
+            @if($updates->count())
+            <div>
+              @php
+              $latestUpdate = $updates->first();
+              @endphp
+              <a href="#updates" class="inline-flex space-x-4">
                 <span
                   class="rounded bg-indigo-50 px-2.5 py-1 text-xs font-semibold text-indigo-500 tracking-wide uppercase">
                   What's new </span>
                 <span class="inline-flex items-center text-sm font-medium text-indigo-500 space-x-1">
-                  <span>Private beta now available</span>
+                  <span>{{ $latestUpdate->title }}</span>
                   <!-- Heroicon name: solid/chevron-right -->
                   <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                     aria-hidden="true">
@@ -27,7 +31,8 @@
                   </svg>
                 </span>
               </a>
-            </div> --}}
+            </div>
+            @endif
             <div class="mt-6 sm:max-w-xl">
               <h1 class="text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl">
                 Web application monitoring for all

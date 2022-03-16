@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}" class="min-h-full">
+<html lang="{{ $page->language ?? 'en' }}" class="min-h-full scroll-smooth">
 
 <head>
   <meta charset="utf-8">
