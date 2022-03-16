@@ -119,8 +119,13 @@
             </svg>
           </div>
           <div class="relative pl-4 -mr-40 sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-            <img class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-              src="/assets/images/beta-screenshot.png" alt="App Observatory screenshot">
+            <picture>
+              <source type="image/webp" srcset="/assets/images/beta-screenshot.webp" />
+              <source type="image/png" srcset="/assets/images/beta-screenshot.png" />
+              <img
+                class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
+                src="/assets/images/beta-screenshot.png" alt="App Observatory screenshot" />
+            </picture>
           </div>
         </div>
       </div>
@@ -297,9 +302,14 @@
     <div id="image-divider"
       class="mt-20 relative overflow-hidden w-full h-60 md:h-96 lg:h-[500px] xl:h-[750px] shadow-inner">
       <picture>
-        <source media="(min-width: 2400px)" srcset="/assets/images/bg/observatory-xl.jpg" />
-        <source media="(min-width: 1920px)" srcset="/assets/images/bg/observatory-lg.jpg" />
-        <source media="(min-width: 640px)" srcset="/assets/images/bg/observatory-md.jpg" />
+        <source type="image/webp" media="(min-width: 2400px)" srcset="/assets/images/bg/observatory-xl.webp" />
+        <source type="image/webp" media="(min-width: 1920px)" srcset="/assets/images/bg/observatory-lg.webp" />
+        <source type="image/webp" media="(min-width: 640px)" srcset="/assets/images/bg/observatory-md.webp" />
+        <source type="image/webp" media="(min-width: 1px)" srcset="/assets/images/bg/observatory-sm.webp" />
+        <source type="image/jpeg" media="(min-width: 2400px)" srcset="/assets/images/bg/observatory-xl.jpg" />
+        <source type="image/jpeg" media="(min-width: 1920px)" srcset="/assets/images/bg/observatory-lg.jpg" />
+        <source type="image/jpeg" media="(min-width: 640px)" srcset="/assets/images/bg/observatory-md.jpg" />
+        <source type="image/jpeg" media="(min-width: 1px)" srcset="/assets/images/bg/observatory-sm.jpg" />
         <img
           class="w-full h-auto min-h-[150%] object-cover absolute top-1/4 left-1/2 -translate-x-1/2 transition-transform will-change-transform duration-75"
           src="/assets/images/bg/observatory-sm.jpg" alt="Observing out-of-this-world web applications" />
