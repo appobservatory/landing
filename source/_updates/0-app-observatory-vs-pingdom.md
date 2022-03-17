@@ -1,5 +1,5 @@
 ---
-extends: update
+extends: _layouts.update
 section: updateContent
 title: "App Observatory vs Solarwinds Pingdom"
 author: "Garrett"

@@ -1,5 +1,5 @@
 ---
-extends: update
+extends: _layouts.update
 section: updateContent
 title: "New Site!"
 author: "Garrett"
