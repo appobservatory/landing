@@ -355,10 +355,10 @@
                 d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
             </svg>
           </div>
-          <div class="relative">
+          <div id="subscribe-updates" class="relative">
             <div class="sm:text-center">
               <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                Get notified when we&rsquo;re launching.
+                Stay up-to-date with the development
               </h2>
               <p class="mt-6 mx-auto max-w-2xl text-lg text-indigo-100">
                 We can&rsquo;t wait to share updates about App Observatory with you!
