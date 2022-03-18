@@ -1,7 +1,8 @@
 ---
 extends: _layouts.update
 section: updateContent
-title: "New Site! | App Observatory"
+meta_title: "New Site! | App Observatory"
+title: "New Site!"
 description: "As App Observatory gets ready to reveal the beta, a new site to showcase it and provide updates was needed."
 author: "Garrett"
 date: "2022-03-15"

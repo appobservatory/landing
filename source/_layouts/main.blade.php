@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <title>{{ $page->title }}</title>
+  <title>{{ $page->meta_title ?? $page->title }}</title>
   <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
   <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
   <!-- Matomo -->

@@ -1,7 +1,8 @@
 ---
 extends: _layouts.update
 section: updateContent
-title: "App Observatory vs Solarwinds Pingdom | App Observatory"
+meta_title: "App Observatory vs Solarwinds Pingdom | App Observatory"
+title: "App Observatory vs Solarwinds Pingdom"
 description: "Why choose App Observatory over another uptime monitoring platform like Solarwinds Pingdom"
 author: "Garrett"
 date: "2022-03-14"
