@@ -14,6 +14,21 @@
   <title>{{ $page->title }}</title>
   <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
   <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//matomo.dnglr.net/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
 </head>
 
 <body class="text-gray-900 font-sans antialiased min-h-full">
